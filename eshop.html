@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-SHOP-pre horskú cyklistiku">
+    <meta name="keywords" content="horské bicykle, MTB bicykle, predaj horských bicyklov, kvalitné MTB bicykle, lacné horské bicykle, horské bicykle na predaj">
+    <meta name="author" content="Samuel Haluza">
+    <link rel="stylesheet" href="style.css">
+    <title>E-SHOP</title>
+</head>
+<body>
+    <!-- Navigačné pole -->
+    <header>
+        <div class="logo-container">
+            <img src="img/Logo.png" alt="BikeZone Logo" class="logo">
+            <span class="logo-text">BikeZone</span>
+            <div class="separator"></div> <!-- Biely oddeľovač -->
+            <button class="hamburger" id="hamburger-btn">
+                ☰
+            </button>
+        </div>
+        <nav class="topnav1" id="nav-menu">
+            <a class="topnav" href="index.html">DOMOV</a>
+            <a class="topnav" href="eshop.html">E-SHOP</a>
+            <a class="topnav" href="kontakt.html">KONTAKT</a>
+            <a class="topnav" href="onas.html">O NÁS</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Produktový grid -->
+        <section class="product-grid">
+            <h2>Naša ponuka produktov</h2>
+            <p>Široký výber produktov:</p>
+            <div class="grid-container">
+                <div class="product-item"
+                data-name="Horský bicykel" 
+                data-description="Odolný bicykel pre náročný terén." 
+                data-price="1500€">
+                    <img src="img/horsky.avif" alt="Horský bicykel">
+                    <h3>Horský bicykel</h3>
+                    <p>Odolný bicykel pre náročný terén.</p>
+                    <p class="price">1 500€</p>
+                </div>
+                <div class="product-item"
+                data-name="Cestný bicykel" 
+                data-description="Ideálny pre rýchle jazdy na asfalte." 
+                data-price="799€">
+                    <img src="img/Cestný.avif" alt="Cestný bicykel">
+                    <h3>Cestný bicykel</h3>
+                    <p>Ideálny pre rýchle jazdy na asfalte.</p>
+                    <p class="price">799 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Elektrický bicykel" 
+                data-description="Skvelý pomocník pri dlhých jazdách." 
+                data-price="1 499€">
+                    <img src="img/elektrobicykel.avif" alt="Elektrický bicykel">
+                    <h3>Elektrický bicykel</h3>
+                    <p>Skvelý pomocník pri dlhých jazdách.</p>
+                    <p class="price">1 499 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Mestský bicykel" 
+                data-description="Praktický bicykel do mesta." 
+                data-price="599 €">
+                    <img src="img/mestsky.avif" alt="Mestský bicykel">
+                    <h3>Mestský bicykel</h3>
+                    <p>Praktický bicykel do mesta.</p>
+                    <p class="price">599 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Cyklistická prilba" 
+                data-description="Bezpečnosť pre každú jazdu." 
+                data-price="59 €">
+                    <img src="img/prilba.avif" alt="Cyklistická prilba">
+                    <h3>Cyklistická prilba</h3>
+                    <p>Bezpečnosť pre každú jazdu.</p>
+                    <p class="price">59 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Cyklistické rukavice" 
+                data-description="Pohodlie a ochrana rúk." 
+                data-price="29 €">
+                    <img src="img/rukavice.avif" alt="Cyklistické rukavice">
+                    <h3>Cyklistické rukavice</h3>
+                    <p>Pohodlie a ochrana rúk.</p>
+                    <p class="price">29 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Cyklistická pumpa" 
+                data-description="Rýchle dofúkanie pneumatík." 
+                data-price="25 €">
+                    <img src="img/pumpa.avif" alt="Cyklistická pumpa">
+                    <h3>Cyklistická pumpa</h3>
+                    <p>Rýchle dofúkanie pneumatík.</p>
+                    <p class="price">25 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Svetlá na bicykel" 
+                data-description="Pre lepšiu viditeľnosť a bezpečnosť." 
+                data-price="45 €">
+                    <img src="img/svetla.avif" alt="Svetlá na bicykel">
+                    <h3>Svetlá na bicykel</h3>
+                    <p>Pre lepšiu viditeľnosť a bezpečnosť.</p>
+                    <p class="price">45 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Fľaša na vodu" 
+                data-description="Hydratácia na cestách." 
+                data-price="12 €">
+                    <img src="img/flasa.avif" alt="Fľaša na vodu">
+                    <h3>Fľaša na vodu</h3>
+                    <p>Hydratácia na cestách.</p>
+                    <p class="price">12 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Zámok na bicykel" 
+                data-description="Chráni váš bicykel pred krádežou." 
+                data-price="35 €">
+                    <img src="img/zamok.avif" alt="Zámok na bicykel">
+                    <h3>Zámok na bicykel</h3>
+                    <p>Chráni váš bicykel pred krádežou.</p>
+                    <p class="price">35 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Cyklistické topánky" 
+                data-description="Zvýšenie výkonu pri jazde." 
+                data-price="110 €">
+                    <img src="img/topanky.avif" alt="Cyklistické topánky">
+                    <h3>Cyklistické topánky</h3>
+                    <p>Zvýšenie výkonu pri jazde.</p>
+                    <p class="price">110 €</p>
+                </div>
+                <div class="product-item"
+                data-name="Sedlo na bicykel" 
+                data-description="Komfort aj pri dlhých jazdách." 
+                data-price="75 €">
+                <img src="img/sedlo.avif" alt="Sedlo na bicykel">
+                    <h3>Sedlo na bicykel</h3>
+                    <p>Komfort aj pri dlhých jazdách.</p>
+                    <p class="price">75 €</p>
+                </div>
+            </div>
+             <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <img id="popup-img" src="" alt="">
+            <h2 id="popup-title">Názov produktu</h2>
+            <p id="popup-description">Popis produktu</p>
+            <p id="popup-price">Cena:</p>
+        </div>
+    </div>
+
+             <!-- Tabuľka -->
+
+    <h2>Porovnanie našich produktov</h2>
+<table class="comparison-table">
+    <thead>
+        <tr>
+            <th>Produkt</th>
+            <th>Popis</th>
+            <th>Cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Horský bicykel</td>
+            <td>Odolný bicykel pre náročný terén.</td>
+            <td>1 500 €</td>
+        </tr>
+        <tr>
+            <td>Cestný bicykel</td>
+            <td>Ideálny pre rýchle jazdy na asfalte.</td>
+            <td>799 €</td>
+        </tr>
+        <tr>
+            <td>Elektrický bicykel</td>
+            <td>Skvelý pomocník pri dlhých jazdách.</td>
+            <td>1 499 €</td>
+        </tr>
+        <tr>
+            <td>Mestský bicykel</td>
+            <td>Praktický bicykel do mesta.</td>
+            <td>599 €</td>
+        </tr>
+    </tbody>
+</table>
+
+        </section>
+    </main>
+    </div>
+        <!-- footer -->
+    <script src="script.js" ></script>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 BikeZone. Všetky práva vyhradené.</p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </footer>
+</body>
+</html>

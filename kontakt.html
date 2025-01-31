@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-SHOP-pre horskú cyklistiku">
+    <meta name="keywords" content="horské bicykle, MTB bicykle, predaj horských bicyklov, kvalitné MTB bicykle, lacné horské bicykle, horské bicykle na predaj">
+    <meta name="author" content="Samuel Haluza">
+    <link rel="stylesheet" href="style.css">
+    <title>KONTAKT</title>
+</head>
+<body>
+     <!-- Navigačné pole -->
+    <header>
+        <div class="logo-container">
+            <img src="img/Logo.png" alt="BikeZone Logo" class="logo">
+            <span class="logo-text">BikeZone</span>
+            <div class="separator"></div>
+            <button class="hamburger" id="hamburger-btn">☰</button>
+        </div>
+        <nav class="topnav1" id="nav-menu">
+            <a class="topnav" href="index.html">DOMOV</a>
+            <a class="topnav" href="eshop.html">E-SHOP</a>
+            <a class="topnav" href="kontakt.html">KONTAKT</a>
+            <a class="topnav" href="onas.html">O NÁS</a>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <!-- Formulár -->
+        <div class="form-box">
+            <h2>Kontaktujte nás</h2>
+            <form id="contactForm" action="thankyou.html">
+                <label for="name">Meno:</label>
+                <input type="text" id="name" name="name" required style="width: 100%">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%">
+
+                <label for="message">Správa:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Napíš niečo...." style="width: 100%"></textarea>
+
+                <label for="privacy">
+                    <input type="checkbox" id="privacy" name="privacy" required> Súhlasím so spracovaním osobných údajov
+                </label>
+
+                <button type="submit">Odoslať</button>
+            </form>
+        </div>
+
+        <!-- Kontaktné údaje -->
+        <div class="contact-info">
+            <h2>Kontaktné údaje</h2>
+            <p>Ak máte akékoľvek otázky, neváhajte nás kontaktovať:</p>
+            <p><strong>Email:</strong> <a href="mailto:info@bikezone.sk">info@bikezone.sk</a></p>
+            <p><strong>Telefón:</strong> <a href="tel:+421234567890">+421 234 567 890</a></p>
+            <h2>Kde nás najdete</h2>
+            <p><strong>Adresa:</strong> Mikovíniho 398, 949 11 Nitra</p>
+            <img src="img/poloha.JPG" alt="poloha">
+            <h2>Otváracie hodiny</h2>
+            <ul class="opening-hours">
+                <li><strong>PON -</strong> 8:00 - 16:00</li>
+                <li><strong>UTO -</strong> 8:00 - 15:30</li>
+                <li><strong>ST -</strong> 9:00 - 17:45</li>
+                <li><strong>ŠTV -</strong> 10:00 - 19:00</li>
+                <li><strong>PIA -</strong> 7:00 - 13:00</li>
+                <li><strong>SOB -</strong> Zatvorené</li>
+                <li><strong>NED -</strong> Zatvorené</li>
+            </ul>
+        </div>
+    </main>
+    <!-- Slide-show -->
+    <h2 class="gallery-title">Naše priestory:</h2>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="img/servis (1).jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="img/servis (2).jpg" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="img/servis(3).jpg" alt="Slide 3">
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 BikeZone. Všetky práva vyhradené.</p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
